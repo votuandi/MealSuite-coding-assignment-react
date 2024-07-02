@@ -1,0 +1,145 @@
+.tickets {
+}
+
+.function-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.function-bar .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.function-bar .buttons select,
+button {
+  padding: 4px 6px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.function-bar .buttons button {
+  background-color: #3999ee;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+}
+
+.function-bar .buttons button:hover {
+  background-color: #2452bb;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.add-panel {
+  position: absolute;
+  top: calc(100% - 15px);
+  right: 0;
+  width: 100%;
+  max-width: 360px;
+  padding: 8px;
+  border: 1px solid #1a1a1a10;
+  background-color: #e7f8f9;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.add-panel span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.add-panel input {
+  padding: 4px 6px;
+  border-radius: 8px;
+}
+
+.add-panel .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.add-panel .buttons .cancel {
+  color: #2452bb;
+  font-weight: 500;
+  background-color: #fff;
+}
+
+.add-panel .buttons .cancel:hover {
+  background-color: #fdf7f5;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.ticket {
+  width: 215px;
+  height: 155px;
+  border-radius: 8px;
+  border: 1px solid #1a1a1a20;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.ticket:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.ticket-title {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.ticket-title span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #8f9885cc;
+}
+
+.ticket-title .no-assigned {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0354ad;
+}
+
+.ticket-title .assigned {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ff8d13;
+}
+
+.no-item {
+  margin: 40px auto 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.no-item img {
+  weight: 200px;
+}

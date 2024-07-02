@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.container button {
+  border-radius: 8px;
+  padding: 6px 12px;
+  color: #fff;
+  border: none;
+  width: fit-content;
+}
+
+.title {
+  color: #1c53ab;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.assigner {
+  color: #34bc98;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.assign-btn {
+  background-color: #3999ee;
+}
+
+.unassign-btn {
+  background-color: #e6413b;
+}
+
+.complete-btn {
+  background-color: #3ba956;
+  margin-top: 20px;
+}
+
+.incomplete-btn {
+  background-color: #fcd553;
+  margin-top: 20px;
+}
